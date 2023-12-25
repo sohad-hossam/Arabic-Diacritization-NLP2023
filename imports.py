@@ -18,4 +18,9 @@ import gensim
 from gensim.models import Word2Vec
 import numpy as np
 
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Concatenate, Dense, LSTM, Embedding, Bidirectional
+
+
+
 nltk.download('punkt')
