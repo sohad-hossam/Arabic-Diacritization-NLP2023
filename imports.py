@@ -18,8 +18,11 @@ import gensim
 from gensim.models import Word2Vec
 import numpy as np
 
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input, Concatenate, Dense, LSTM, Embedding, Bidirectional
+import pandas as pd
+from tqdm import tqdm
+import torch
+from torch import nn
+import random as rnd
 
 
 
