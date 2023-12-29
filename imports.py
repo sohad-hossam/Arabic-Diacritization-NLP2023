@@ -9,10 +9,10 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from torch.utils.data import random_split
 from gensim.models import Word2Vec
-import tensorflow as tf
+#import tensorflow as tf
 
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Bidirectional, LSTM, Dense,Embedding
+#from tensorflow.keras.models import Sequential
+#from tensorflow.keras.layers import Bidirectional, LSTM, Dense,Embedding
 
 import gensim
 from gensim.models import Word2Vec
