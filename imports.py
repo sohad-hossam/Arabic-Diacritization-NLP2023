@@ -23,6 +23,12 @@ from tqdm import tqdm
 import torch
 from torch import nn
 import random as rnd
+import copy
+
+from gensim.models import FastText
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+import torch.optim as optim
 
 
 
